@@ -1,0 +1,123 @@
+@import url("https://fonts.google.com/?query=Press+Start+2P");
+
+#infoCanvas{
+    margin:auto;
+    display: flex;
+    justify-content: center;
+}
+
+#gamePlayCanvas{
+    border-bottom: 1px solid;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+}
+
+#gameOverCanvas {
+    font-family: 'Courier New', Courier, monospace;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 45px;
+    height: 45px;
+}
+
+.centerContainer{
+    width: 600px;
+    height: 60px;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+#restartButton{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    background: transparent ;
+    border: transparent;
+}
+
+#restartButton:hover{
+    background: #D6D7D7;
+    box-shadow: 3px 3px 3px #B2ADA9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .game {
+    width: 600px;
+    height: 200px ;
+    border-bottom: 1px solid;
+    margin: auto;
+}
+#dino {
+    width: 50px;
+    height: 50px;
+    background-image: url(images/dino.png);
+    background-size:50px 50px;
+    position: relative;
+    top: 150px;
+
+}
+
+#cactus {
+    width: 20px;
+    height: 40px;
+    background-image: url(images/cactus.png);
+    background-size: 20px 40px;
+    position: relative;
+    top: 110px;
+    left: 580px;
+    animation: cactusMov 1s infinite linear;
+
+}
+
+@keyframes cactusMov {
+    0% {
+        left: 580px;
+    }
+    100% {
+        left: -20px;
+    }
+}
+
+.jump{
+    animation: jump 0.3s linear;
+
+}
+
+@keyframes jump {
+    0% {
+        top: 150px;
+    }
+    30%{
+        top: 130px;
+    }
+    50%{
+        top:80px;
+    }
+    80%{
+        top: 130px;
+    }
+    100% {
+        top: 150px;
+    }
+} */
