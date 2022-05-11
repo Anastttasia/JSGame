@@ -1,12 +1,3 @@
-// const dino = document.getElementById("dino");
-// const cactus = document.getElementById("cactus");
-
-// 
-
-// let cvs = document.getElementById("canvas");
-// let ctx = cvs.getContext("2d");
-
-
 //FISRT INIT STEPS
 let infoCanvas = document.getElementById("infoCanvas");
 let infoCanvasContext = infoCanvas.getContext("2d");
@@ -126,8 +117,6 @@ function setDefaults() {
     isAlive = true;
 
     restartButton.style.display = "none";
-    
- 
 }
 
 
@@ -141,54 +130,3 @@ restartButton.addEventListener("click", setDefaults);
 document.addEventListener("keydown", jump);
 init()
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// document.addEventListener("keydown", function(event) {
-//     jump();
-// });
-
-// function jump () {
-//     if (dino.classList !="jump") {
-//         dino.classList.add("jump")
-//     }
-//     setTimeout( function(){
-//         dino.classList.remove("jump")
-//     }, 300)
-// }
-
-// let isAlive = setInterval ( function() {
-//     let dinoTop = parseInt(window.getComputedStyle(dino).getPropertyValue("top"));
-//     let cactusLeft = parseInt(window.getComputedStyle(cactus).getPropertyValue("left"));
-
-//     ctx.clearRect(0, 0, cvs.width, cvs.height)
-
-//     if (cactusLeft < 50 && cactusLeft > 0 && dinoTop >= 140) {
-//         alert ("GAME OVER!")
-//         score = 0;
-//     }
-//     else {
-//         score += 1;
-//     }
-
-//     ctx.fillStyle = "#000";
-//     ctx.font = "20px Verdana";
-//     ctx.fillText("Счет: " + score, 10, cvs.height - 20);
-
-// }, 10)
